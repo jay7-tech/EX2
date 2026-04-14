@@ -24,15 +24,15 @@ Pre trained Lung models successfully map Brain Tumors significantly faster than 
 
 ### Diagnostic Graphs and Visual Data
 
-<img src="starvation_matrix.png" width="600">
+<img src="assets/starvation_matrix.png" width="600">
 
 Data Starvation Plot visualizing the performance divergence between classical Linear approaches and deep CNN scaling
 
-<img src="cnn_training.png" width="600">
+<img src="assets/cnn_training.png" width="600">
 
 Epoch Training Matrix revealing the rapid validation accuracy convergence of the primary diagnostic CNN
 
-<img src="transfer_learning.png" width="600">
+<img src="assets/transfer_learning.png" width="600">
 
 Transfer Learning overlay confirming frozen internal layers reduce computational overhead compared to blank architectures
 

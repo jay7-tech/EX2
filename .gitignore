@@ -3,10 +3,7 @@ chest_xray/
 *.jpg
 *.jpeg
 *.png
-!svm_accuracy_trend.png
-!cnn_training.png
-!starvation_matrix.png
-!transfer_learning.png
+!assets/*.png
 .vscode/
 __pycache__/
 medical-image-classification-for-beginner.ipynb
