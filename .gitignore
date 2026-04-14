@@ -4,5 +4,8 @@ chest_xray/
 *.jpeg
 *.png
 !svm_accuracy_trend.png
+!cnn_training.png
+!starvation_matrix.png
+!transfer_learning.png
 .vscode/
 __pycache__/
