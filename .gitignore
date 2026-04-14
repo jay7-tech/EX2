@@ -9,3 +9,6 @@ chest_xray/
 !transfer_learning.png
 .vscode/
 __pycache__/
+Simple Excercises.docx
+medical-image-classification-for-beginner.ipynb
+build_notebook.py
