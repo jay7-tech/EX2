@@ -36,4 +36,3 @@ Epoch Training Matrix revealing the rapid validation accuracy convergence of the
 
 Transfer Learning overlay confirming frozen internal layers reduce computational overhead compared to blank architectures
 
-*(Execute the final Jupyter Notebook cells to dynamically map these graphs into your output directory)*
