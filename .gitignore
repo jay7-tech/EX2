@@ -1,0 +1,8 @@
+chest_xray/
+*.keras
+*.jpg
+*.jpeg
+*.png
+!svm_accuracy_trend.png
+.vscode/
+__pycache__/
