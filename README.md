@@ -24,7 +24,7 @@ Pre trained Lung models successfully map Brain Tumors significantly faster than 
 
 ### Diagnostic Graphs and Visual Data
 
-<img src="svm_accuracy_trend.png" width="600">
+<img src="starvation_matrix.png" width="600">
 
 Data Starvation Plot visualizing the performance divergence between classical Linear approaches and deep CNN scaling
 
