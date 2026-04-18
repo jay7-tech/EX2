@@ -14,24 +14,6 @@ Three tasks in order:
 **Chest X-Ray (Pneumonia)** — Kaggle  
 https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
-Train/test folders already split. Classes: `NORMAL` (0) and `PNEUMONIA` (1).
-
-| Class | Training images |
-|:---|:---|
-| NORMAL | 1,341 |
-| PNEUMONIA | 3,875 |
-
-**Brain Tumor MRI** — stored locally in `brain_data/`  
-Classes: Glioma (0), Meningioma (1), Pituitary (2), No Tumor (3)  
-Split: `Training/` and `Testing/` folders used directly.
-
-| Class | Training | Testing |
-|:---|:---|:---|
-| Glioma | 826 | 100 |
-| Meningioma | 822 | 115 |
-| Pituitary | 827 | 74 |
-| No Tumor | 395 | 105 |
-
 ---
 
 ## Pipeline
