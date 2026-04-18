@@ -1,6 +1,4 @@
-# Exercise 2 — SVM vs CNN on Chest X-Ray, with Transfer Learning to Brain Tumors
-
-## What this is
+# SVM vs CNN on Chest X-Ray, with Transfer Learning to Brain Tumors
 
 This notebook benchmarks two classification approaches on a chest X-ray pneumonia dataset, then tests whether a CNN trained on chest images can carry useful knowledge over to a brain tumor dataset.
 
