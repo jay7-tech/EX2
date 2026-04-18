@@ -5,7 +5,7 @@ This notebook benchmarks two classification approaches on a chest X-ray pneumoni
 Three tasks in order:
 1. PCA + SVM baseline (linear and RBF kernels)
 2. Custom CNN trained from scratch on chest X-rays
-3. Transfer learning — the chest CNN's convolutional layers are frozen and a new output head is trained on brain tumor images
+3. Transfer learning-the chest CNN's convolutional layers are frozen and a new output head is trained on brain tumor images
 
 ---
 
@@ -15,8 +15,6 @@ Three tasks in order:
 https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
 ---
-
-## Pipeline
 
 **Images are loaded at 64×64 grayscale.** Flattened to 4,096 features for SVM, kept as 64×64×1 arrays for the CNN.
 
@@ -30,7 +28,8 @@ https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 | Linear | 74.20% | 0.826 | 0.977 | 0.350 |
 | RBF | 77.72% | 0.847 | 0.987 | 0.427 |
 
-Both kernels find pneumonia cases well (high sensitivity) but struggle to correctly identify normal lungs (low specificity). That's partly a class imbalance effect — pneumonia dominates the training set nearly 3:1.
+Both kernels find pneumonia cases well (high sensitivity) but struggle to correctly identify normal lungs (low specificity).
+That's partly a class imbalance effect — pneumonia dominates the training set nearly 3:1.
 
 ---
 
